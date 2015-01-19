@@ -1,0 +1,15 @@
+{
+  "name": "es6-deferred",
+  "version": "1.0.0",
+  "description": "Deferred the ES6 way",
+  "main": "deferred.js",
+  "keywords": [
+    "deferred",
+    "defer",
+    "es6",
+    "promise",
+    "async"
+  ],
+  "author": "Sean Genabe <seangenabe@outlook.com>",
+  "license": "MIT"
+}
