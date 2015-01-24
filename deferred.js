@@ -1,3 +1,5 @@
+"use strict";
+
 var Deferred = function() {
   this.promise = new Promise((function(resolve, reject) {
     this.resolve = resolve;
