@@ -1,14 +1,10 @@
+"use strict";
 
-var Deferred = function Deferred() {
-  Object.defineProperty(this, 'promise', {
-    value: new Promise((function(resolve, reject) {
-      this.resolve = function(result) { resolve(result) }
-      this.reject = function(err) { resolve(err) }
-    }).bind(this)),
-    enumerable: true,
-    configurable: false
-  })
-  return this
-}
+var Deferred = function() {
+  this.promise = new Promise((function(resolve, reject) {
+    this.resolve = resolve;
+    this.reject = reject;
+  }).bind(this));
+};
 
-module.exports = Deferred
+module.exports = Deferred;
