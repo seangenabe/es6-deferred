@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Deferred the ES6 way",
   "main": "deferred.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
   "keywords": [
     "deferred",
     "defer",
@@ -11,5 +14,11 @@
     "async"
   ],
   "author": "Sean Genabe <seangenabe@outlook.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "chai-as-promised": "^4.1.1",
+    "mocha": "^2.1.0",
+    "q": "2"
+  }
 }
