@@ -3,7 +3,6 @@ var chai = require('chai');
 var expect = chai.expect;
 var Deferred = require('./');
 chai.use(require('chai-as-promised'));
-var Promise = global.Promise = require('q').Promise;
 
 describe('Deferred', function() {
 

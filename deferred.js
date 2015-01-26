@@ -1,5 +1,9 @@
 "use strict";
 
+if (!global.Promise) {
+  var Promise = require('es6-promise').Promise;
+}
+
 var Deferred = function() {
   this.promise = new Promise((function(resolve, reject) {
     this.resolve = resolve;
