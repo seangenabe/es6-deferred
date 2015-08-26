@@ -48,4 +48,26 @@ describe('Deferred', function() {
     });
   });
 
+  describe('#then() and #catch()', function () {
+    it('should be called when the promise is resolved', function (cb) {
+      this.timeout(200);
+      var d = new Deferred();
+      d.resolve(1);
+      d.then(function (n) {
+        expect(n).to.equal(1);
+        cb();
+      });
+    });
+
+    it('should be called when the promise is rejected', function (cb) {
+      this.timeout(200);
+      var d = new Deferred();
+      d.reject(2);
+      d.catch(function (n) {
+        expect(n).to.equal(2);
+        cb();
+      });
+    });
+  });
+
 });
