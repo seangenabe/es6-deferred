@@ -17,6 +17,14 @@ Resolves the promise with the given value.
 
 Rejects the promise with the given error.
 
+### `d.then(fn)`
+
+Appends a fulfullment handler to the promise.
+
+### `d.catch(fn)`
+
+Appends a rejection handler to the promise.
+
 ## License
 
 MIT
