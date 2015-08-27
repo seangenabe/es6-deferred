@@ -17,11 +17,11 @@ Resolves the promise with the given value.
 
 Rejects the promise with the given error.
 
-### `d.then(fn)`
+### `d.then(onFulfilled, onRejected)`
 
-Appends a fulfillment handler to the promise.
+Appends a fulfillment and rejection handler to the promise.
 
-### `d.catch(fn)`
+### `d.catch(onRejected)`
 
 Appends a rejection handler to the promise.
 
