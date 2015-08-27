@@ -1,7 +1,7 @@
 "use strict";
 
 if (typeof Promise !== 'undefined') {
-  var Promise = global.Promise || require('es6-promise').Promise;
+  var Promise = require('es6-promise').Promise;
 }
 
 var Deferred = function() {
