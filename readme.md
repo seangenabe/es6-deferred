@@ -19,7 +19,7 @@ Rejects the promise with the given error.
 
 ### `d.then(fn)`
 
-Appends a fulfullment handler to the promise.
+Appends a fulfillment handler to the promise.
 
 ### `d.catch(fn)`
 
