@@ -53,7 +53,7 @@ describe('Deferred', function() {
       this.timeout(200);
       var d = new Deferred();
       d.resolve(1);
-      d.then(function (n) {
+      d.promise.then(function (n) {
         expect(n).to.equal(1);
         cb();
       });
@@ -63,7 +63,7 @@ describe('Deferred', function() {
       this.timeout(200);
       var d = new Deferred();
       d.reject(2);
-      d.catch(function (n) {
+      d.promise.catch(function (n) {
         expect(n).to.equal(2);
         cb();
       });

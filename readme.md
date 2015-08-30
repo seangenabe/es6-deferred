@@ -17,14 +17,6 @@ Resolves the promise with the given value.
 
 Rejects the promise with the given error.
 
-### `d.then(onFulfilled, onRejected)`
-
-Appends a fulfillment and rejection handler to the promise.
-
-### `d.catch(onRejected)`
-
-Appends a rejection handler to the promise.
-
 ## License
 
 MIT
