@@ -1,6 +1,6 @@
 {
   "name": "es6-deferred",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "description": "Deferred the ES6 way",
   "main": "deferred.js",
   "scripts": {
