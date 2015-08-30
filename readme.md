@@ -1,8 +1,8 @@
 ## Usage
 
 ````javascript
-var Deferred = require('es6-deferred');
-var d = new Deferred();
+var deferred = require('es6-deferred');
+var d = deferred();
 ````
 
 ### `d.promise`
