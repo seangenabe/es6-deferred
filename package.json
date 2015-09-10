@@ -11,7 +11,8 @@
     "defer",
     "es6",
     "promise",
-    "async"
+    "async",
+    "es2015"
   ],
   "author": "Sean Genabe <seangenabe@outlook.com>",
   "license": "MIT",
