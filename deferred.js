@@ -1,15 +1,20 @@
-"use strict";
+'use strict'
 
-var Promise = global.Promise || require('es6-promise').Promise;
+module.exports = class Deferred {
 
-var Deferred = function() {
-  this.promise = new Promise((function(resolve, reject) {
-    this.resolve = resolve;
-    this.reject = reject;
-  }).bind(this));
-  
-  this.then = this.promise.then.bind(this.promise);
-  this.catch = this.promise.catch.bind(this.promise);
-};
+  constructor() {
+    this.promise = new Promise((resolve, reject) => {
+      this.resolve = resolve
+      this.reject = reject
+    })
+  }
 
-module.exports = Deferred;
+  then(resolved, rejected) {
+    return this.promise.then(resolved, rejected)
+  }
+
+  catch(rejected) {
+    return this.promise.catch(rejected)
+  }
+
+}
