@@ -11,8 +11,8 @@ Deferred the ES2015 way.
 ## Usage
 
 ````javascript
-var Deferred = require('es6-deferred');
-var d = new Deferred();
+const Deferred = require('es6-deferred');
+let d = new Deferred();
 ````
 
 ### `d.promise`
