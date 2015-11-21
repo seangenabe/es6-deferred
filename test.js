@@ -102,7 +102,7 @@ describe('Deferred', function() {
       var d = new Deferred()
       setTimeout(function() {
         d.reject(new Error("bacon"))
-      })
+      }, 100)
       var e = new Promise(function(resolve, reject) {
         var thenable = d.then(null, function(error) {
           push(expect(error.message).to.equal("bacon"), 0)
@@ -122,7 +122,7 @@ describe('Deferred', function() {
       var d = new Deferred()
       setTimeout(function() {
         d.reject(new Error("bacon"))
-      })
+      }, 100)
       var e = new Promise(function(resolve, reject) {
         var thenable = d.catch(function(error) {
           push(expect(error.message).to.equal("bacon"), 0)
