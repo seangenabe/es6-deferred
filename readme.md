@@ -6,7 +6,7 @@ Deferred the ES2015 way.
 [![Build Status](https://img.shields.io/travis/seangenabe/is-heroku-cli/es6-only.svg?style=flat-square)](https://travis-ci.org/seangenabe/is-heroku-cli)
 [![Dependency Status](https://img.shields.io/david/seangenabe/is-heroku-cli.svg?style=flat-square)](https://david-dm.org/seangenabe/is-heroku-cli)
 [![devDependency Status](https://img.shields.io/david/dev/seangenabe/is-heroku-cli.svg?style=flat-square)](https://david-dm.org/seangenabe/is-heroku-cli#info=devDependencies)
-[![node](https://img.shields.io/node/v/es6-deferred.svg)](https://nodejs.org/en/download/)
+[![node](https://img.shields.io/node/v/es6-deferred.svg?style=flat-square)](https://nodejs.org/en/download/)
 
 ## Usage
 
