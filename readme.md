@@ -1,5 +1,7 @@
 ## Usage
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/seangenabe/es6-deferred.svg)](https://greenkeeper.io/)
+
 ````javascript
 var Deferred = require('es6-deferred');
 var d = new Deferred();
