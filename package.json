@@ -17,11 +17,11 @@
   "author": "Sean Genabe <seangenabe@outlook.com>",
   "license": "MIT",
   "optionalDependencies": {
-    "es6-promise": "^2.0.1"
+    "es6-promise": "^4.1.0"
   },
   "devDependencies": {
-    "chai": "^1.10.0",
-    "chai-as-promised": "^4.1.1",
-    "mocha": "^2.1.0"
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "^3.3.0"
   }
 }
